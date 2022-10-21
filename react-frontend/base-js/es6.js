@@ -27,7 +27,7 @@ var lck = {
         console.log(`[print2-1] name : ${this.name}`);
         var me = this;
         (function() {
-            console.log(`[print2-2] name : ${this.name}`);
+            console.log(`[print2-2] name : ${me.name}`);
         })();
     },
     print3: function() {
