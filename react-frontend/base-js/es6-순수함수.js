@@ -3,3 +3,4 @@ const number = numbers.reduce((acc, n) => acc + n, 0);
 console.log(number);
 const even_numbers = numbers.filter(i => i % 2 == 0);
 console.log(even_numbers);
+console.log("쉬어가는날");
